@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  font-family: 'Montserrat', sans-serif; }
+
+.site-content {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 3rem; }
+  .site-content .apps-buttons {
+    margin-bottom: 100px; }
+    .site-content .apps-buttons .button {
+      border: 1px solid #C3CED8;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      border-radius: 14px;
+      padding: 10px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: start;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      cursor: pointer;
+      margin-top: 10px; }
+      .site-content .apps-buttons .button .logo {
+        width: 22px;
+        height: 22px;
+        background-size: cover;
+        margin-right: 10px; }
+        .site-content .apps-buttons .button .logo.google {
+          background: url("../images/GPlayLogo.png") no-repeat center center; }
+        .site-content .apps-buttons .button .logo.apple {
+          background: url("../images/Apple_logo.png") no-repeat center center; }
+      .site-content .apps-buttons .button .info .title {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 13px;
+        color: #37373C; }
+      .site-content .apps-buttons .button .info .name {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: -0.3px;
+        color: #37373C; }
+  .site-content .site-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .site-content .site-logo .site-logo {
+      width: 128px;
+      height: 128px;
+      background: url("../images/logo.svg") no-repeat center center;
+      background-size: auto; }
+    .site-content .site-logo .app-name {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 27px;
+      text-align: center;
+      color: #000000;
+      margin-top: 15px; }
